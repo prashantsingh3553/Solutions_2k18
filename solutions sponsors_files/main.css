@@ -1,0 +1,28 @@
+form.cms-registrationform input[type="submit"],#pragyan_loginform input[type="submit"] {
+	height:2.75em;line-height:2.75em;padding:0 1.5em;background-color:transparent
+}
+
+#cms-content {
+	border-radius: 40px;
+	padding: 20px;
+	text-align: left;
+	margin: 0 5px;
+	overflow-y: scroll;
+}
+.page-container {
+    text-align:justify;
+}
+@media screen and (min-width: 600px) {
+	#cms-content {
+		padding: 30px;
+		overflow-y: auto;
+	}
+	.page-holder {
+		background: url('double_meen.svg') no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.page-container {
+		height: 100%;
+		overflow-y: auto;
+	}
+}

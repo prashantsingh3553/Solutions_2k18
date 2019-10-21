@@ -1,0 +1,31 @@
+body {
+  background-color: none;
+  /*background-image: url("../images/background-comp.jpg");*/ }
+
+#particle-js {
+  height: auto;
+  width: 100%; }
+
+.init {
+  position: fixed;
+  margin-top: 70px;
+  color: #f4f1de;
+  font-size: 20px;
+  z-index: 1990; }
+
+.init a {
+  color: #e07a5f; }
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.comingsoon {
+  position: fixed;
+  margin-top: 30%;
+  color: #f4f1de;
+  text-align: center;
+  width: 100%;
+  color: #e07a5f;
+  z-index: -3; }
